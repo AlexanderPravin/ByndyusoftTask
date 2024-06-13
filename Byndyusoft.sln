@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".src", ".src", "{5EAF250D-D0EE-439D-9C55-58FA43B4A74A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCalculator", ".src\ConsoleCalculator\ConsoleCalculator.csproj", "{B1BF8519-892C-4F4F-9756-91E6D5FEA7AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tst", ".tst", "{42504325-AB4F-4626-94A0-3BC71268B13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionParserTests", ".tst\ExpressionParserTests\ExpressionParserTests.csproj", "{CA27830B-354E-4D3A-BA00-6FA2F458F602}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1BF8519-892C-4F4F-9756-91E6D5FEA7AB} = {5EAF250D-D0EE-439D-9C55-58FA43B4A74A}
+		{CA27830B-354E-4D3A-BA00-6FA2F458F602} = {42504325-AB4F-4626-94A0-3BC71268B13F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1BF8519-892C-4F4F-9756-91E6D5FEA7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BF8519-892C-4F4F-9756-91E6D5FEA7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BF8519-892C-4F4F-9756-91E6D5FEA7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BF8519-892C-4F4F-9756-91E6D5FEA7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA27830B-354E-4D3A-BA00-6FA2F458F602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA27830B-354E-4D3A-BA00-6FA2F458F602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA27830B-354E-4D3A-BA00-6FA2F458F602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA27830B-354E-4D3A-BA00-6FA2F458F602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
